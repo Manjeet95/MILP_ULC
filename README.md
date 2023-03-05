@@ -34,11 +34,3 @@ There are five files in this source code.
 ```
 
 - The differential characteristic is mentioned in 15-round_Differential_Characteristic file. 
-## Source Code
-
-There are five files in this source code.
-- Ineq_Reduction.py 
-- ULC.py
-- Outer_ULC_64_15.lp
-- Inner_ULC_64_15.lp
-- 15-round_Differential_Characteristic
