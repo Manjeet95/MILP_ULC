@@ -4,15 +4,6 @@
 MILP Based Differential Characteristics Search Problem for Block Cipher ULC
 
 
-## Source Code
-
-There are five files in this source code.
-- Ineq_Reduction.py 
-- ULC.py
-- Outer_ULC_64_15.lp
-- Inner_ULC_64_15.lp
-- 15-round_Differential_Characteristic
-
 ## Generation and Reduction of Linear Inequalities
 
 - First, Ineq_Reduction.py generates linear inequalities. Then, minimize the linear inequalities using GUROBI (to reduce the number of active S-boxes or to optimize probability of differential characteristics).
@@ -34,11 +25,3 @@ There are five files in this source code.
 ```
 
 - The differential characteristic is mentioned in 15-round_Differential_Characteristic file. 
-## Source Code
-
-There are five files in this source code.
-- Ineq_Reduction.py 
-- ULC.py
-- Outer_ULC_64_15.lp
-- Inner_ULC_64_15.lp
-- 15-round_Differential_Characteristic
