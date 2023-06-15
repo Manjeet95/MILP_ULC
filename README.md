@@ -29,7 +29,7 @@ There are five files in this source code.
 
 - ULC.py is used to model the MILP problem and solve it using GUROBI. Linear inequalities generated in the previous section have to be updated in this file. This file generates two modules outer and inner. The outer module minimizes the number of active S-boxes while the inner module search for differential characteristics with high probability. Both these modules are interfaced together and the user need not run these separately.
 
-- ULC.py takes seven arguments. The first argument defines block size, the second argument defines the number of rounds, the third argument defines the minimum number of active S-boxes, the fourth argument defines whether the difference of some rounds is fixed or not, the fifth argument defines the number of trails to find, the sixth argument defines possible/impossible differential characteristics and seventh argument is used to define the solver.
+- ULC.py takes seven arguments. The first argument defines block size, the second argument defines the number of rounds, the third argument defines the minimum number of active S-boxes, the fourth argument defines whether the difference of some round is fixed or not, the fifth argument defines the number of trails to find, the sixth argument defines possible/impossible differential characteristics and seventh argument is used to define the solver.
 
 - High probability differential characteristic for 15-round ULC is searched using the following command:
 ```bash
