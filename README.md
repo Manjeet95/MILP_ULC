@@ -20,7 +20,7 @@ There are five files in this source code.
 
 - First, Ineq_Reduction.py generates linear inequalities. Then, minimize the linear inequalities using GUROBI (to reduce the number of active S-boxes or to optimize the probability of differential characteristics).
 
-- The command 'python Ineq_Reduction.py ULC Sbox GUROBI -' gives the list of minimized linear inequalities to reduce the number of active S-boxes.
+- The command 'python Ineq_Reduction.py ULC sbox GUROBI -' gives the list of minimized linear inequalities to reduce the number of active S-boxes.
 
 - The command 'python Ineq_Reduction.py ULC prob GUROBI -' provides the list of minimized linear inequalities to optimize the probability of differential characteristics.
 
