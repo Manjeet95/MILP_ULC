@@ -43,6 +43,6 @@ There are five files in this source code.
   - ULC_in_out.py is used to generate 13-round and 12-round differential distinguishers as follows:
     ```bash
         python ULC_in_out.py 64 13 13 no_fix 1 possible GUROBI
-        python ULC.py 64 12 12 no_fix 1 possible GUROBI
+        python ULC_in_out.py 64 12 12 no_fix 1 possible GUROBI
     ```
     as given in 13-round_Differential_Distinguisher.txt and 12-round_Differential_Distinguisher.txt files.
