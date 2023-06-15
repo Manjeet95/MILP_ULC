@@ -11,7 +11,10 @@ There are five files in this source code.
 - ULC.py
 - Outer_ULC_64_15.lp
 - Inner_ULC_64_15.lp
-- 15-round_Differential_Characteristic
+- 15-round_Differential_Characteristic.txt
+- ULC_in_out.py
+- 13-round_Differential_Distinguisher.txt
+- 12-round_Differential_Distinguisher.txt
 
 ## Generation and Reduction of Linear Inequalities
 
@@ -33,4 +36,13 @@ There are five files in this source code.
     python ULC.py 64 15 15 no_fix 1 possible GUROBI
 ```
 
-- The differential characteristic is mentioned in the 15-round_Differential_Characteristic file. 
+- The differential characteristic is mentioned in the 15-round_Differential_Characteristic.txt file.
+
+  ## Key Recovery Distinguishers
+
+  - ULC_in_out.py is used to generate 13-round and 12-round differential distinguishers as follows:
+    ```bash
+        python ULC_in_out.py 64 13 13 no_fix 1 possible GUROBI
+        python ULC.py 64 12 12 no_fix 1 possible GUROBI
+    ```
+    as given in 13-round_Differential_Distinguisher.txt and 12-round_Differential_Distinguisher.txt files.
